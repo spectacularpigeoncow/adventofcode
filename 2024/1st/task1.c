@@ -58,6 +58,7 @@ int main(int argc, char *argv[])
     counter += (counter2*temp);
   }
   printf("Similarity score %li", counter);
-
+  free(in_x);
+  free(in_y);
 return 0;
 }
