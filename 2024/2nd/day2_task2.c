@@ -76,10 +76,6 @@ int main(int argc, char *argv[])
             arr_less[index_new] = arr[i];
             index_new++;
           }
-          for(int i = 0; i < spaces; i++){
-            printf(" %i ",arr_less[i]);
-          }
-          printf("\n");
           int safe_temp2 = check_rules(arr_less, spaces - 1);
           if(safe_temp2 == (spaces -1)){
             safe++;
